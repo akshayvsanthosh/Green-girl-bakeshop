@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 3.3%;
+}
+
+#logo{
+    margin-top: 3px;
+    height: 91px;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    margin-left: 31px;
+}
+
+#navbar{
+    margin-right: 12px;
+}
+
+.cart-bttn{
+    border: 1px solid #00000030;
+    padding: 11px 16px;
+}
+
+#maindiv{
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+#slideshow{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/green-girl-bakeshop-dairy-free-gelato_1db24c0d-91f8-4bab-8b45-86c7137efad2_1800x.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: new-launch;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* .slide-element1{
+    width: 100%;
+    height: 100vh;    
+    background-image: url("./images/green-girl-bakeshop-dairy-free-gelato_1db24c0d-91f8-4bab-8b45-86c7137efad2_1800x.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: new-launch;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.slide-element2{
+    width: 100%;
+    height: 100vh;    
+    background-image: url("./images/green-girl-bakeshop-dairy-free-sandwich_1800x.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: new-launch;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.slide-element3{
+    width: 100%;
+    height: 100vh;    
+    background-image: url("./images/green-girl-bakeshop-dairy-free-ice-cream-pints_1800x.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: new-launch;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+.image-head-desp{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 39px;
+    font-weight: 598;
+}
+
+.image-desp{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21.3px;
+    line-height: 38px;
+    margin-top: 3px;
+}
+
+.slide-element1{
+    padding: 211px 0px 0px 117px;
+}
+
+.image-bttn{
+    margin-top: 15px;
+    padding: 10px 15px;
+    line-height: 1.8;
+    background-color: #c5dbcc;
+    border: 0px;
+    cursor: pointer;
+}
+
+.image-bttn:hover{
+    background-color: rgb(133, 129, 125);
+}
+
+#store-menu{
+    width: 100%;
+    height: 241px;
+    padding: 2.8% 331px;
+}
+
+#icon-div{
+    height: 130px;
+    display: flex;
+}
+
+.links-store-menu{
+    text-decoration: none;
+    margin: 0px 38px;
+}
+
+.icons-store-menu{
+    height: 120px;
+}
+
+.descp-store-menu{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    margin-top: 3px;
+    font-size: 20px;
+    text-align: center;
+    width: 149px;
+    margin-left: -15px;
+}
+
+#about{
+    width: 100%;
+    height: 632px;
+}
+
+#about-ingredients{
+    width: 100%;
+    display: flex;
+    height: 632px;
+}
+
+.ingredients-image{
+    width: 50%;
+    height: 632px;
+}
+
+.ingredients-content{
+    width: 50%;
+    height: 632px;
+    background-color: #c1d7c8;
+}
+
+.about-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 599;
+    font-size: 28px;
+    margin: 139px 61px 0px 64px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 17px;
+}
+
+.about-descp{
+    margin: 13px 58px 0px 64px;
+    padding-bottom: 5px;
+}
+
+.about-para{
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0 0 15px;
+    line-height: 1.8em;
+    font-size: 20.3px;
+}
+
+.about-bttn{
+    text-decoration: none;
+    color: #000;
+    padding: 21px 7px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 64px;
+    background-color: #fff;
+    display: inline-block;
+    width: 123px;
+    height: 56px;
+}
+
+#sub-about{
+    width: 100%;
+    height: 632px;
+
+}
+
+#about-vision{
+    width: 100%;
+    display: flex;
+    height: 632px;
+
+}
+
+.vision-content{
+    width: 50%;
+    height: 632px;
+    background-color: #deacb0;
+}
+
+.vision-image{
+    width: 50%;
+    height: 632px;
+}
+
+.sub-about-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 599;
+    font-size: 28px;
+    margin: 192px 61px 0px 64px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 17px;
+
+}
+
+.sub-about-bttn{
+    text-decoration: none;
+    color: #000;
+    padding: 21px 7px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 64px;
+    background-color: #fff;
+    display: inline-block;
+    width: 156px;
+    height: 56px;
+}
+
+#footer{
+    width: 100%;
+    height: 268px;
+}
+
+.footer-head{
+    width: 100%;
+    height: 194px;
+    display: flex;
+
+}
+
+.email-footer{
+    width: 33.4%;
+    height: 194px;
+    padding: 23px 0px 0px 41px;
+}
+
+.name-footer{
+    width: 33.3%;
+    height: 194px;
+
+}
+
+.details-footer{
+    width: 33.3%;
+    height: 194px;
+    padding: 24px 0px 0px 174px;
+}
+
+.footer-heading{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 599;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.email-box{
+    height: 51px;
+    width: 89%;
+    padding: 15px 25px 15px 15px;
+    margin: 10px 16px 0px -5px;
+    border: 0.5px solid #7e7b7b;
+    font-size: 15px;
+}
+
+.sign-up{
+    text-decoration: none;
+    color: #000;
+    background-color: #c5dbcc;
+    width: 103px;
+    height: 43px;
+    display: block;
+    margin: 10px 16px 0px -5px;
+    text-align: center;
+    padding: 11px 0px 0px 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer-image{
+    width: 48%;
+    height: 65px;
+    margin: 25px 0px 0px 111px;
+}
+
+.details-links{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    letter-spacing: 0.7px;
+    margin-top: 2px;
+}
+
+.details-logo{
+    width: 104px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+.details-icon{
+    padding-left: 12px;
+    color: #b6b5b5;
+}
+
+.footer-line{
+    width: 100%;
+    height: 5px;
+    padding: 0px 20px 0px 20px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1% 22px;
+}
+
+.copyright-text{
+    font-size: 12px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.email-box:active{
+    border: 3px solid #000;
+    border-radius: 4px;
+}
+
+.sign-up:hover{
+    background-color: #b9a8a9;
+}
+
+.details-links:hover{
+    color: #7e7b7b;
+}
+
+.details-icon:hover{
+    color: #000;
+}
+
+@keyframes new-launch {
+    0% {
+        background-image: url("./images/green-girl-bakeshop-dairy-free-gelato_1db24c0d-91f8-4bab-8b45-86c7137efad2_1800x.webp");
+    }
+
+    66% {
+        background-image: url("./images/green-girl-bakeshop-dairy-free-sandwich_1800x.webp");
+
+    }
+
+    99% {
+        background-image: url("./images/green-girl-bakeshop-dairy-free-ice-cream-pints_1800x.webp");
+
+    }
+
+
+}
